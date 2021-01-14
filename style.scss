@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.registerForm{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 450px;
+    margin-top: 50px;
+    
+
+    &__image{
+        width: 100px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    input{
+        width: 100%;
+        display:block;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #eee;
+        outline: none;
+        background-color: #fafafa;
+        
+    }
+
+    button{
+        width: 100%;
+        padding:10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    &__error{
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        background-color: red;
+        padding: 10px;
+    }
+
+    &__welcome{
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        background-color: green;
+        padding: 10px;
+    }
+}
