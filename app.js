@@ -9,17 +9,21 @@ var messageDiv = document.createElement("div");
 var first,last ="";
 
 firstName.addEventListener("keyup", function(){
+
     first=firstName.value;
     userName.value=("@"+first+last).toLowerCase();  
+
 });
 
 lastName.addEventListener("keyup", function(){
+
     last=lastName.value;  
     userName.value=("@"+first+last).toLowerCase();  
+
 });
 
 submit.addEventListener("click", function(){
-
+    
     if(pass.value.length >= 8){
         
         if(pass.value === conPass.value){
