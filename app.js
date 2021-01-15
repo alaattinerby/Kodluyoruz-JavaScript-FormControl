@@ -27,7 +27,7 @@ submit.addEventListener("click", function(){
     if(pass.value.length >= 8){
         
         if(pass.value === conPass.value){
-            messageDiv.textContent="Hoşgeldin " + "@"+(first+last).toLowerCase();
+            messageDiv.textContent="Hoşgeldin " + userName.value.toLowerCase();
             messageDiv.classList="registerForm__welcome";
             alertMessage.appendChild(messageDiv);
         }
